@@ -129,9 +129,11 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-        <img src="static/images/pipeline_weight.png" alt="Diagram Robust Single Object Tracking and Following by Fusion Strategy" class="center" width="60%"/>
-        <h2 class="subtitle has-text-centered">
-          <b>Geo-localization pipeline:</b> The yellow block quantifies the information. Using this quantification, <br/>we adjust the weight in the factor graph to mitigate the drawbacks exposed below.
+        <img src="static/images/detections.png" alt="Diagram Robust Single Object Tracking and Following by Fusion Strategy" class="left" width="35%"/>
+        <img src="static/images/pipeline_weight.png" alt="Diagram Robust Single Object Tracking and Following by Fusion Strategy" class="right" width="65%"/> 
+        <h2 class="subtitle has-text-left">
+          <b>Ground boundaries in red (left):</b> From LiDAR (detections) and from aerial imagery (landmarks).
+          <br/><b>Geo-localization pipeline (right):</b> The yellow block quantifies the information. Using this quantification, we adjust the weight in the factor graph to mitigate the drawbacks exposed below.
         </h2>
     </div>
   </div>
